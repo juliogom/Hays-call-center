@@ -29,7 +29,7 @@ public class DispatcherTest extends TestCase {
     }
     
     @Test
-    public void testDispatchCallsToEmployees() throws InterruptedException {
+    public void testDispatchCalls() throws InterruptedException {
     	
     	
         List<Employee> employeeList = getEmployees();
